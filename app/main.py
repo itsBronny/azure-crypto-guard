@@ -13,7 +13,7 @@ CONTAINER_NAME = "PriceHistory"
 @app.get("/")
 def read_root():
     return {
-        "status": "CryptoGuard Active", 
+        "status": "CryptoGuard CI/CD Deployment Successful", 
         "endpoints": ["/price (Live)", "/history (Database)"],
         "auth": "Managed Identity for DB access"
     }
